@@ -19,7 +19,7 @@ templates = Jinja2Templates(directory="templates")
 # Initialize LLM config
 config = {
     'max_new_tokens': 1024,
-    'context_length': 1024,
+    'context_length': 4096,
     'temperature': 0.1,
     'top_p': 0.9,
     'stream': False,
