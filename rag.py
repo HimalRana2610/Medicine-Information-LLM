@@ -44,7 +44,7 @@ Timing: [specify when to take the medicine]
 Response:
 """
 
-MODEL_PATH = "C:/Users/Lenovo/OneDrive/Desktop/AI Project/model"
+MODEL_PATH = "./model"
 
 # Initialize components
 try:
