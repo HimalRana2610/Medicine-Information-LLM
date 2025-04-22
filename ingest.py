@@ -5,7 +5,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Qdrant
 from qdrant_client import QdrantClient
 
-DATA_DIR = "C:/Users/Lenovo/OneDrive/Desktop/AI Project/Data"
+DATA_DIR = "./Data"
 
 def ingest_docs():
     """Load and process medical documents"""
